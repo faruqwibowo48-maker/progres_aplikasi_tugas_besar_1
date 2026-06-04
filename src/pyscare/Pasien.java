@@ -5,16 +5,13 @@ public class Pasien {
     private String nama;
     private int umur;
     private String keluhanUtama;
-
-    // Constructor
     public Pasien(String idPasien, String nama, int umur, String keluhanUtama) {
         this.idPasien = idPasien;
         this.nama = nama;
         this.umur = umur;
         this.keluhanUtama = keluhanUtama;
     }
-
-    // Getter dan Setter (Encapsulation)
+    
     public String getIdPasien() {
         return idPasien;
     }

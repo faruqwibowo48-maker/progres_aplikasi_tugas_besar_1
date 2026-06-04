@@ -5,14 +5,14 @@ public class Konselor {
     private String namaKonselor;
     private String spesialisasi;
 
-    // Constructor
+   
     public Konselor(String idKonselor, String namaKonselor, String spesialisasi) {
         this.idKonselor = idKonselor;
         this.namaKonselor = namaKonselor;
         this.spesialisasi = spesialisasi;
     }
 
-    // Getter dan Setter
+ 
     public String getIdKonselor() {
         return idKonselor;
     }

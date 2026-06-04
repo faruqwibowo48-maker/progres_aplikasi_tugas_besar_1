@@ -2,12 +2,12 @@ package pyscare;
 
 public class Konseling {
     private String idKonseling;
-    private Pasien pasien;       // Relasi ke objek Pasien
-    private Konselor konselor;   // Relasi ke objek Konselor
+    private Pasien pasien;      
+    private Konselor konselor;  
     private String tanggal;
     private String catatanMedis;
 
-    // Constructor
+  
     public Konseling(String idKonseling, Pasien pasien, Konselor konselor, String tanggal, String catatanMedis) {
         this.idKonseling = idKonseling;
         this.pasien = pasien;
@@ -16,7 +16,7 @@ public class Konseling {
         this.catatanMedis = catatanMedis;
     }
 
-    // Method untuk menampilkan detail riwayat konseling (Simulasi Join Table)
+   
     public void tampilkanDetailKonseling() {
         System.out.println("========= DETAIL TRANSAKSI KONSELING =========");
         System.out.println("ID Konseling    : " + idKonseling);
@@ -37,7 +37,7 @@ public class Konseling {
         System.out.println("==============================================\n");
     }
 
-    // Getter dan Setter
+   
     public String getIdKonseling() {
         return idKonseling;
     }
